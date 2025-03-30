@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <link rel="icon" href="images/favicon.png" type="image/gif" />
+
+  <title>New Upakar Traders</title>
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap" rel="stylesheet" />
+
+  <!-- font awesome style -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+  <!-- header section strats -->
+  <header class="header_section innerpage_header">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg custom_nav-container">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/logo.jpg" alt="New Upakar Traders Logo" class="logo" />
+          <span>
+            New Upakar Traders
+          </span>
+        </a>
+        <div class="" id="">
+
+          <div class="custom_menu-btn">
+            <button onclick="openNav()">
+              <span class="s-1"> </span>
+              <span class="s-2"> </span>
+              <span class="s-3"> </span>
+            </button>
+            <div id="myNav" class="overlay">
+              <div class="overlay-content">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="service.html">Service</a>
+                <a href="blog.html">Blog</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- end header section -->
+
+
+  <!-- blog section -->
+
+  <section class="blog_section">
+    <div class="container-fluid">
+      <div class="heading_container">
+        <h2>
+          Latest Blog
+        </h2>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/b1.jpg" alt="">
+            </div>
+            <div class="detail-box">
+              <h5>
+                Exploring New Trends in Furniture Design
+              </h5>
+              <p class="blog-snippet">
+                Stay up-to-date with the latest trends in furniture design, from minimalist styles to bold color
+                schemes, bringing modernity and comfort to your home or office.
+              </p>
+              <p class="blog-full-content" style="display:none;">
+                Furniture design is constantly evolving, with new styles, materials, and functionalities being
+                introduced every year. From the rise of eco-friendly designs to the increasing demand for
+                multifunctional furniture, trends are changing fast...
+              </p>
+              <a href="javascript:void(0);" class="read-more" onclick="toggleBlogContent(this)">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/b2.jpg" alt="">
+            </div>
+            <div class="detail-box">
+              <h5>
+                Tips for Choosing the Right Office Furniture
+              </h5>
+              <p class="blog-snippet">
+                Discover expert tips on selecting office furniture that blends aesthetics with functionality, ensuring a
+                comfortable and productive work environment.
+              </p>
+              <p class="blog-full-content" style="display:none;">
+                When it comes to office furniture, it's essential to consider ergonomics, comfort, and style. A
+                well-chosen office setup can boost productivity and create a positive atmosphere for employees...
+              </p>
+              <a href="javascript:void(0);" class="read-more" onclick="toggleBlogContent(this)">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script>
+    // Function to toggle the visibility of the full blog content
+    function toggleBlogContent(element) {
+      var fullContent = element.previousElementSibling; // The paragraph with class "blog-full-content"
+      if (fullContent.style.display === "none") {
+        fullContent.style.display = "block";
+        element.textContent = "Read Less"; // Change the text to "Read Less" when content is shown
+      } else {
+        fullContent.style.display = "none";
+        element.textContent = "Read More"; // Change the text back to "Read More"
+      }
+    }
+
+  </script>
+
+  <!-- end blog section -->
+
+  <!-- info section -->
+  <section class="info_section innerpage_info_section">
+    <div class="container">
+      <div class="row info_main_row">
+        <!-- Company Information -->
+        <div class="col-md-6 col-lg-3">
+          <div class="info_insta">
+            <h4>
+              <a href="index.html" class="navbar-brand m-0 p-0">
+                <span>
+                  New Upakar Traders
+                </span>
+              </a>
+            </h4>
+            <p class="mb-0">
+              At New Upakar Traders, we specialize in providing high-quality, stylish, and durable furniture that meets
+              the needs of homes, offices, and businesses. Our mission is to enhance your spaces with functional and
+              elegant designs.
+            </p>
+          </div>
+        </div>
+
+        <!-- About Company -->
+        <div class="col-md-6 col-lg-3">
+          <div class="info_detail">
+            <h4>
+              About Our Company
+            </h4>
+            <p class="mb-0">
+              With a commitment to quality and customer satisfaction, New Upakar Traders offers a wide range of
+              furniture solutions. We take pride in delivering products that combine timeless craftsmanship with modern
+              innovation.
+            </p>
+          </div>
+        </div>
+
+        <!-- Contact Information -->
+        <div class="col-md-6 col-lg-3">
+          <h4>
+            Contact Us
+          </h4>
+          <div class="info_contact">
+            <a href="https://www.google.com/maps?q=27.695078180618292,85.29487794157578&hl=en" target="_blank"
+              class="location-link">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <span>Ravibhawan, Kalanki, Kathmandu, Nepal</span>
+            </a>
+
+            <a href="tel:+9779851114982">
+              <i class="fa fa-phone" aria-hidden="true"></i>
+              <span>
+                Call +977 985-1114982
+              </span>
+            </a>
+            <a href="https://mail.google.com/mail/?view=cm&to=newupakartraders@gmail.com" target="_blank">
+              <i class="fa fa-envelope"></i>
+              <span>
+                newupakartraders@gmail.com
+              </span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Social Media Links -->
+        <div class="col-md-6 col-lg-3">
+          <h4>
+            Follow Us
+          </h4>
+          <div class="social_box">
+            <a href="https://www.facebook.com/profile.php?id=61565478190447&mibextid=ZbWKwL" target="_blank">
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+            <a href="https://wa.me/9779851114982" target="_blank">
+              <i class="fa fa-whatsapp" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end info_section -->
+
+  <!--Whatsapp Float Chat Start-->
+  <a href="https://wa.me/9779851114982?" target="_blank" class="float" style="
+position: fixed;
+width: 40px;
+height: 40px;
+bottom: 40px;
+right: 50px;
+color: #fff;
+border-radius: 50px;
+text-align: center;
+cursor: pointer;
+box-shadow: 2px 2px 3px #999;
+">
+    <img src="images\whatsappicon.png" alt="" height="40px" width="40px" />
+  </a>
+  <!--Whatsapp Float Chat End-->
+
+  <!-- footer section -->
+  <footer class="footer_section">
+    <div class="container">
+      <div class="footer-content">
+        <p>
+          &copy; <span id="displayYear"></span> All Rights Reserved By
+          <a href="#">New Upakar Traders</a>
+        </p>
+        <div class="credits">
+          Designed by <a href="https://Bechchha.com/">Bechchha.com</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer section -->
+
+
+  <!-- jQery -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <!-- bootstrap js -->
+  <script src="js/bootstrap.js"></script>
+
+  <!-- custom js -->
+  <script src="js/custom.js"></script>
+
+</body>
+
+</html>
